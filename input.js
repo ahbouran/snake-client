@@ -24,6 +24,8 @@ const handleUserInput = function (key) {
     connection.write("Move: down")
   } else if (key === '\u0064') {
     connection.write("Move: right")
+  } else if (key === '\u0068') {
+    connection.write("Say: Howdy")
   }
 };
 
